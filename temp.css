@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+    background-image: url(wall.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+
+    width: 340px;
+    border: 1px solid black;
+    background-color: rgb(253, 223, 228);
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 10px rgba(50, 49, 49, .6);
+    height: auto;
+
+
+}
+
+.hed {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family: 'Aboreto', cursive;
+
+}
+
+
+.boxcontainer {
+    display: flex;
+
+}
+
+p {
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    padding: 9px 4px;
+}
+
+.box1 {
+    width: 90%;
+    padding: 10px 5px;
+
+}
+
+.takval,
+#unit {
+    width: 100%;
+    font-size: 19.5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(126, 125, 125);
+}
+
+#unit {
+    font-size: 1.3rem;
+    margin-top: 1.5px;
+}
+
+.valuecontainer {
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+.value {
+    width: 100%;
+    height: 30px;
+    margin: 8px 0;
+    font-size: 1.7rem;
+    border-bottom: 1px solid rgb(126, 125, 125);
+}
+
+.button {
+    width: 100%;
+    height: auto;
+    font: 1.9rem;
+    color: white;
+    background-color: rgb(133, 100, 253);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    
+
+}
+
+.emoji {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.emoji>i {
+    color: orange;
+    font-size: 4.5rem;
+
+}
